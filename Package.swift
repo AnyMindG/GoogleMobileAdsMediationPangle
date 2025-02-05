@@ -14,15 +14,9 @@ let package = Package(
   ],
   targets: [
     .binaryTarget(
-      name: "GoogleMobileAdsMediationPangleBinary",
+      name: "GoogleMobileAdsMediationPangle",
       url: "https://github.com/AnyMindG/AllFrameworks/releases/download/10000.4.0/GoogleMobileAdsMediationPangle.zip",
       checksum: "8663f4596e6f95362562593e0f499706a696c8159f573a363bcf276dc801495a"
-    ),
-    .target(
-      name: "GoogleMobileAdsMediationPangle"),
-    .testTarget(
-      name: "GoogleMobileAdsMediationPangleTests",
-      dependencies: ["GoogleMobileAdsMediationPangle"]
-    ),
+    )
   ]
 )
